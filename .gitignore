@@ -1,3 +1,21 @@
-# raw data: download from Kaggle, do not commit
-data/*.csv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE & OS configuration files
+.DS_Store
+.vscode/
+.idea/
+
+# Data directory (uncomment if the CSV file exceeds 25MB or GitHub file size limits)
+# mudah-apartment-kl-selangor.csv
